@@ -1,0 +1,14 @@
+rChip8
+======
+
+rChip8 is a chip8 emulator written in Ruby. Its goal is to explain how an emulator works... and, one year later I wrote it, I think it's very far from that goal... :(
+
+If you're under GNU/Linux, it's easy to play with it:
+
+1. Install the ruby-dev and sdl-dev libraries
+2. Enter to sdl_lite/ and create the sdl lite binding (ruby extconf.rb && make)
+3. Test if it's OK: ruby pong.rb
+4. If you can see a strange game, perfect! You can now play with rChip8
+5. ruby chip8 games/MAZE
+6. Enjoy and fork it!
+
